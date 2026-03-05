@@ -1,0 +1,28 @@
+#BlueJ class context
+comment0.target=CupTest
+comment0.text=\n\ Unit\ tests\ for\ the\ Cup\ class.\n\ Verifies\ constructor,\ height\ formula,\ and\ getters.\n\ \n\ @author\ Tom\u00E1s\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Sets\ up\ the\ test\ fixture.\n\ Creates\ cups\ with\ different\ ids\ for\ testing.\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ Tears\ down\ the\ test\ fixture.\n
+comment3.params=
+comment3.target=void\ testGetId()
+comment3.text=\n\ Test\ that\ Cup\ returns\ the\ correct\ id.\n
+comment4.params=
+comment4.target=void\ testGetDiameter()
+comment4.text=\n\ Test\ that\ Cup\ returns\ the\ correct\ diameter.\n
+comment5.params=
+comment5.target=void\ testGetHeight()
+comment5.text=\n\ Test\ that\ Cup\ height\ follows\ the\ formula\ 2*id\ -\ 1.\n
+comment6.params=
+comment6.target=void\ testGetColor()
+comment6.text=\n\ Test\ that\ Cup\ returns\ the\ correct\ color.\n
+comment7.params=
+comment7.target=void\ testSmallestCupHeight()
+comment7.text=\n\ Test\ height\ formula\ for\ id\ \=\ 1\ (smallest\ cup).\n
+comment8.params=
+comment8.target=void\ testLargeCupHeight()
+comment8.text=\n\ Test\ height\ formula\ for\ a\ larger\ id.\n
+numComments=9

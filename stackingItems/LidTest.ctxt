@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=LidTest
+comment0.text=\n\ Unit\ tests\ for\ the\ Lid\ class.\n\ Verifies\ constructor\ and\ getters.\n\ \n\ @author\ Tom\u00E1s\n\ @version\ 1.0\n
+comment1.params=
+comment1.target=void\ setUp()
+comment1.text=\n\ Sets\ up\ the\ test\ fixture.\n\ Creates\ lids\ with\ different\ ids\ for\ testing.\n
+comment2.params=
+comment2.target=void\ tearDown()
+comment2.text=\n\ Tears\ down\ the\ test\ fixture.\n
+comment3.params=
+comment3.target=void\ testGetId()
+comment3.text=\n\ Test\ that\ Lid\ returns\ the\ correct\ id.\n
+comment4.params=
+comment4.target=void\ testGetWidth()
+comment4.text=\n\ Test\ that\ Lid\ returns\ the\ correct\ width.\n
+comment5.params=
+comment5.target=void\ testGetColor()
+comment5.text=\n\ Test\ that\ Lid\ returns\ the\ correct\ color.\n
+comment6.params=
+comment6.target=void\ testLidColorMatchesCup()
+comment6.text=\n\ Test\ that\ Lid\ color\ matches\ its\ cup\ color\ convention.\n
+numComments=7

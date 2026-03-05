@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=LidGUI
+comment0.text=\n\ Visual\ representation\ of\ a\ Lid\ using\ Rectangle\ shapes\ from\ the\ shapes\ project.\n\ Draws\ a\ lid\ as\ a\ simple\ colored\ horizontal\ bar\ representing\ the\ lid\ covering.\n\ The\ lid\ is\ visually\ distinct\ from\ cups\ and\ is\ centered\ horizontally\ within\ the\ tower.\n\ Lids\ are\ always\ 1\ cm\ (thin)\ in\ height.\n\ \n\ @author\ Acero\ -\ Quiceno\n\ @version\ 3.0\n
+comment1.params=lid\ scaleFactor\ towerPixelWidth
+comment1.target=LidGUI(Lid,\ int,\ int)
+comment1.text=\n\ Create\ a\ LidGUI\ for\ the\ given\ lid.\n\ @param\ lid\ the\ lid\ to\ represent\ visually\n\ @param\ scaleFactor\ pixels\ per\ logical\ cm\ unit\n\ @param\ towerPixelWidth\ total\ pixel\ width\ of\ the\ tower\ area\n
+comment2.params=x\ y
+comment2.target=void\ draw(int,\ int)
+comment2.text=\n\ Draw\ the\ lid\ at\ the\ given\ position\ on\ the\ canvas.\n\ Centered\ horizontally\ in\ the\ tower.\n\ @param\ x\ the\ x\ coordinate\ of\ the\ tower\ left\ edge\ in\ pixels\n\ @param\ y\ the\ y\ coordinate\ of\ the\ top\ edge\ of\ this\ lid\ in\ pixels\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\n\ Erase\ the\ lid\ from\ the\ canvas.\n
+comment4.params=x\ y
+comment4.target=void\ updatePosition(int,\ int)
+comment4.text=\n\ Update\ the\ position\ of\ the\ lid\ on\ the\ canvas.\n\ Erases\ the\ current\ drawing\ and\ redraws\ at\ the\ new\ position.\n\ @param\ x\ the\ new\ x\ coordinate\ of\ the\ tower\ left\ edge\ in\ pixels\n\ @param\ y\ the\ new\ y\ coordinate\ of\ the\ top\ edge\ in\ pixels\n
+comment5.params=
+comment5.target=Lid\ getLid()
+comment5.text=\n\ Get\ the\ underlying\ Lid\ domain\ object.\n\ @return\ the\ Lid\ object\ associated\ with\ this\ GUI\n
+numComments=6

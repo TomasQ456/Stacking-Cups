@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.target=Lid
+comment0.text=\n\ Represents\ a\ lid\ for\ a\ cup\ in\ the\ tower.\n\ Each\ lid\ has\ a\ unique\ id\ (matching\ its\ corresponding\ cup),\ a\ logical\ width,\n\ and\ a\ color\ (which\ should\ match\ its\ cup's\ color).\n\ Lids\ are\ always\ 1\ cm\ tall\n\ \n\ @author\ Acero\ -\ Quiceno\n\ @version\ 3.0\n
+comment1.params=id\ color
+comment1.target=Lid(int,\ java.awt.Color)
+comment1.text=\n\ Create\ a\ new\ Lid\ with\ the\ given\ properties.\n\ \n\ @param\ id\ the\ unique\ identifier\ (should\ match\ its\ cup's\ id)\n\ @param\ color\ the\ color\ of\ the\ lid\ (should\ match\ its\ cup's\ color)\n
+numComments=2

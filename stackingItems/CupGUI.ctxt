@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.target=CupGUI
+comment0.text=\n\ Visual\ representation\ of\ a\ Cup\ using\ Rectangle\ shapes\ from\ the\ shapes\ project.\n\ To\ controller\ this\ GUI\ we\ have\ left\ wall,\ bottom,\ right\ wall\ with\n\ the\ cup\ color\ showing\ only\ the\ walls\ and\ bottom,\ leaving\ the\ interior\ hollow.\n\ The\ cup\ is\ centered\ horizontally\ within\ the\ tower.\n\ \n\ @author\ Acero\ -\ Quiceno\n\ @version\ 3.0\n
+comment1.params=cup\ scaleFactor\ towerPixelWidth
+comment1.target=CupGUI(Cup,\ int,\ int)
+comment1.text=\n\ Create\ a\ CupGUI\ for\ the\ given\ cup.\n\ @param\ cup\ the\ cup\ to\ represent\ visually\n\ @param\ scaleFactor\ pixels\ per\ logical\ cm\ unit\n\ @param\ towerPixelWidth\ total\ pixel\ width\ of\ the\ tower\ area\n
+comment2.params=x\ y
+comment2.target=void\ draw(int,\ int)
+comment2.text=\n\ Draw\ the\ cup\ at\ the\ given\ position\ on\ the\ canvas.\n\ We\ draw\ the\ cup\ with\ left\ wall,\ right\ wall,\ and\ bottom\n\ in\ the\ cup's\ color.\ The\ interior\ is\ left\ hollow\ (white).\n\ Centered\ horizontally\ in\ the\ tower.\n\ @param\ x\ the\ x\ coordinate\ of\ the\ tower\ left\ edge\ in\ pixels\n\ @param\ y\ the\ y\ coordinate\ of\ the\ top\ edge\ of\ this\ cup\ in\ pixels\n
+comment3.params=
+comment3.target=void\ erase()
+comment3.text=\n\ Erase\ the\ cup\ from\ the\ canvas.\n
+comment4.params=x\ y
+comment4.target=void\ updatePosition(int,\ int)
+comment4.text=\n\ Update\ the\ position\ of\ the\ cup\ on\ the\ canvas.\n\ @param\ x\ the\ new\ x\ coordinate\ of\ the\ tower\ left\ edge\ in\ pixels\n\ @param\ y\ the\ new\ y\ coordinate\ of\ the\ top\ edge\ in\ pixels\n
+comment5.params=
+comment5.target=Cup\ getCup()
+comment5.text=\n\ Get\ the\ underlying\ Cup\ domain\ object.\n\ @return\ the\ Cup\ object\ associated\ with\ this\ GUI\n
+numComments=6
